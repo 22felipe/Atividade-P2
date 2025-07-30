@@ -1,5 +1,6 @@
-# 📦 Atividade 1 (Programação 2) — Gerenciamento de Estoque (Java)
+# 📦 Gerenciamento de Estoque (Java)
 
+📚 **Disciplina:** Programação 2 (Atividade acadêmica)
 📅 Atividade proposta em: **29/07/2025**
 
 ## 📝 Enunciado
