@@ -1,7 +1,29 @@
+import java.util.Locale;
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, world");
-        }
+        Locale.setDefault(Locale.US);
+        Scanner sc= new Scanner(System.in);
+
+        Product n_product = new Product();
+        System.out.println("Enter product data: ");
+        System.out.print("Name: ");
+        n_product.name = sc.nextLine();
+
+        System.out.print("Price: ");
+        n_product.price= sc.nextDouble();
+
+        System.out.print("Quantity in stock: ");
+        n_product.quantity = sc.nextInt();
+
+
+
+
+
+
+        sc.close();
+    }
 }
