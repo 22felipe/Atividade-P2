@@ -22,14 +22,5 @@ public class Product {
 
     }
 
-    /*
-    public void UpdateData (){
-        System.out.println("Update data : "
-                + this.name + ", $ "
-                + String.format("%.2f", price)
-                + ", " + this.quantity
-                + " units, Total: $ "
-                + String.format("%.2f", TotalValueStock()) );
-    }*/
 
 }
