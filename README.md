@@ -1,4 +1,4 @@
-# 📦 Problema Exemplo 2 — Gerenciamento de Estoque (Java)
+# 📦 Atividade 1 (Programação 2) — Gerenciamento de Estoque (Java)
 
 ## 📝 Enunciado
 
