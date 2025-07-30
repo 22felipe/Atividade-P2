@@ -1,5 +1,7 @@
 # 📦 Atividade 1 (Programação 2) — Gerenciamento de Estoque (Java)
 
+📅 Atividade proposta em: **29/07/2025**
+
 ## 📝 Enunciado
 
 Fazer um programa para ler os dados de um produto em estoque (**nome**, **preço** e **quantidade**). Em seguida:
