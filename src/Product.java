@@ -3,23 +3,21 @@ public class Product {
     public double price;
     public int quantity;
 
-    //teste2
-    public double TotalValueStock(){
+    public double totalValueStock(){
         return this.price *this.quantity;
     }
 
-    public void AddProducts (int quantity){
+    public void addProducts (int quantity){
         this.quantity += quantity;
     }
 
-    public void RemoveProducts(int quantity){
+    public void removeProducts(int quantity){
         this.quantity -= quantity;
     }
 
-
     public String toString() {
 
-        return  "Update data : " + this.name + ", $ " + String.format("%.2f", price) + ", " + this.quantity + " units, Total: $ " + String.format("%.2f", TotalValueStock());
+        return  "Update data : " + this.name + ", $ " + String.format("%.2f", price) + ", " + this.quantity + " units, Total: $ " + String.format("%.2f", totalValueStock());
 
     }
 
