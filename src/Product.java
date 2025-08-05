@@ -3,6 +3,7 @@ public class Product {
     public double price;
     public int quantity;
 
+    //teste2
     public double TotalValueStock(){
         return this.price *this.quantity;
     }
