@@ -7,6 +7,9 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc= new Scanner(System.in);
 
+
+        int quantity;
+
         
         Product n_product = new Product();
         System.out.println("Enter product data: ");
